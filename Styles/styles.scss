@@ -146,13 +146,13 @@ height: auto;
 
 /* ------- FOOTER -------*/
 
-footer .fab, footer .far {
-    font-size: 30px;
-    color: black;
-    padding: 4px;
-    margin: 1px;
+// footer .fab, footer .far {
+//     font-size: 30px;
+//     color: black;
+//     padding: 4px;
+//     margin: 1px;
     
-}
+// }
 
 .footers{
     display: flex;
@@ -161,7 +161,7 @@ footer .fab, footer .far {
     height: auto;
     flex-direction: row;
     align-content: center;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding-bottom: 0px;
     margin-top: 50px;
@@ -172,10 +172,6 @@ footer .fab, footer .far {
         align-content: center;
         align-items: center;
         padding-top: 15px;
-    }
-    &__iconos{
-        display: flex;
-        border: 1px solid red; 
     }
 }
 
