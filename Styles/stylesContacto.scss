@@ -32,10 +32,12 @@ form{
     align-items: center;
     box-shadow: rgba(0,0,0,0.8) 0px 0px 50px;
     border-radius: 10px;
+    margin-top: 50px;
 }
 
 input, textarea{
     border: none;
+    background-color: #fff;
     resize: none;
     outline: none;
     padding: 15px 0px;
@@ -74,7 +76,7 @@ button:hover{
 /* ------- FOOTER -------*/
 footer .fab, footer .far {
     font-size: 30px;
-    color: black;
+    color: white;
     padding: 4px;
     margin: 1px;
 }
@@ -86,6 +88,7 @@ footer .fab, footer .far {
     /* border: 1px solid blue; */
     width: 100%;
     height: auto;
+    color: white;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;

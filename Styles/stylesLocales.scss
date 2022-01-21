@@ -5,50 +5,46 @@
             box-sizing: border-box;
             font-family: 'Staatliches', cursive;
 }  
+
 body {
     background-color: #3B3B43;
     height: 100%;
     /* border: red solid 1px; */
     padding-top: 45px;
 }  
+
 a {
     text-decoration: none;
     color: white;
 }  
 
 
-
-
-
-/*------- Estilos MAIN ------------ */
-
-
+/*------- MAIN ------------ */
 
 .mapas{
-    padding: 100px;
+    margin-top: 40px;
     display: flex;
-    /* border: solid 3px red; */
-    flex-direction: row;
+    // border: solid 3px red;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     gap: 50px;
     align-content: center;
     justify-content: center;
+    padding: 5px;
     &__card{
         display: flex;
-        // background-color: rgb(247, 241, 241);
-        /* border: solid 1px white; */
         border-radius: 10px;
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
         box-shadow: 1px 1px 12px 0px rgba(0,0,0,0.3);
+        width: auto;
+        padding: 5px;
         h3{
-    
             display: inline;
             width: 100%;
             text-align: center;
-            /* margin: 10px; */
         }
         h4{
             @extend h3;
@@ -59,12 +55,8 @@ a {
     }
 }
 
+/*------- FIN MAIN ------------ */
 
-
-
-
-
-/*------- Estilos MAIN ------------ */
 
 /* ------- FOOTER -------*/
 
@@ -84,7 +76,7 @@ footer .fab, footer .far {
     align-content: center;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 0px;
+    padding: 5px;
     &__text{
         display: flex;
         /* border: 1px solid red; */
