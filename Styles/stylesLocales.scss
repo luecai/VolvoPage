@@ -92,3 +92,108 @@ footer .fab, footer .far {
 }
 
 /* ------- FIN FOOTER -------*/
+
+@media (min-width: 319px) and (max-width: 882px){
+
+*{
+    width: 100%;
+}
+
+.mapas{
+    width: 100%;
+    height: auto;
+}
+
+.mapas__card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapas_card__map{
+    width: 90%;
+    height: auto;
+}
+
+.footers{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+}
+
+
+.footers__text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.footers__icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+    
+    
+@media (min-width: 768px) and (max-width: 1023px) {
+    *{
+        width: 100%;
+    }
+    
+    .mapas{
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .mapas__card{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        border: solid 1px red;
+    }
+    
+    .mapas_card__map{
+        width: 90%;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+        border: solid 1px blue;
+        margin-left: 35px
+    }
+    
+    .footers{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;  
+    }
+    
+    
+    .footers__text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .footers__icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+    
+    
+    @media (min-width: 1239px) and (max-width: 1671px) {
+    
+    }
