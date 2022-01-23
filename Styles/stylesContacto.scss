@@ -196,6 +196,37 @@ footer .fab, footer .far {
         
     }
     
-    @media (min-width: 1239px) and (max-width: 1671px) {
+    @media (min-width: 1024px) and (max-width: 1671px) {
     
+        body{
+            background-image: url(../Pañol/Fondo.jpeg);
+            background-size: cover;
+            background-position: center; 
+            width: 100%;
+            height: auto;
+        }
+        
+        form{
+            width: 80%;
+            height: auto;
+        }
+    
+        .container{
+            display: flex;
+            width: 100%;
+        }
+    
+        .footers{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            }
+    
+        .footers__text{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+
     }

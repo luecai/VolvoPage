@@ -226,4 +226,45 @@ footer .fab, footer .far {
             justify-content: center;
   }
 }
+
+@media (min-width: 1024px) and (max-width: 1671px) {
+  body {
+    background-image: url(../Pañol/Fondo.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+  }
+  form {
+    width: 80%;
+    height: auto;
+  }
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  .footers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
+  .footers__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 /*# sourceMappingURL=stylesContacto.css.map */
